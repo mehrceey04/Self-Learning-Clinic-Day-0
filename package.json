@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mehrceey04/Self-Learning-Clinic-Day-0/issues"
   },
-  "homepage": "https://github.com/mehrceey04/Self-Learning-Clinic-Day-0#readme"
+  "homepage": "https://github.com/mehrceey04/Self-Learning-Clinic-Day-0#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  }
 }
