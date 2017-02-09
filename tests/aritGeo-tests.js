@@ -11,6 +11,10 @@
     });
 
     describe("Case for an arithmetic sequence", function() {
+      it("should return `Arithmetic` for [-9, -14, -17, -22]", function() {
+        expect(myApp.aritGeo([-9, -14, -17, -22])).toEqual('Arithmetic');
+      });
+
       it("should return `Arithmetic` for [2, 4, 6, 8, 10]", function() {
         expect(myApp.aritGeo([2, 4, 6, 8, 10])).toEqual('Arithmetic');
       });
@@ -26,6 +30,10 @@
     });
 
     describe("Case for a geometric sequence", function() {
+      it("should return `Geometric` for [3, 9, 27, 81, 243]", function() {
+        expect(myApp.aritGeo([3, 9, 27, 81, 243])).toEqual('Geometric');
+      });
+
       it("should return `Geometric` for [2, 6, 18, 54, 162]", function() {
         expect(myApp.aritGeo([2, 6, 18, 54, 162])).toEqual('Geometric');
       });
@@ -51,6 +59,10 @@
 
       it("should return -1 for [1, 8, 27, 64, 125]", function() {
         expect(myApp.aritGeo([1, 8, 27, 64, 125])).toEqual(-1);
+      });
+
+      it("should return -1 for [2, 9, 3]", function() {
+        expect(myApp.aritGeo([2, 9, 3])).toEqual(-1);
       });
       
     });
